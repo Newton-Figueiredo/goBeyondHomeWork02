@@ -1,5 +1,10 @@
 @media (max-width: 600px) {
 
+    .headerImg {
+        height: 200px;
+        position: relative;
+    }
+
 .header {
     height: 42vh;
 }
@@ -61,6 +66,7 @@ img.minhaFoto {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 h1.headerNome {

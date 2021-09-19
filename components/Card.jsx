@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 
 export default function Cards(info) {
@@ -7,7 +8,10 @@ export default function Cards(info) {
             <a  className="cardLink" href={info.linkCard}>
             <div className="cardMoldura">
                 <div className="fotoCard">
-                    <img src={info.srcFoto} alt={info.nomeCard} className="fotoCard" />
+                    <Image src={info.srcFoto} alt={info.nomeCard} className="fotoCard"
+                    width={300}
+                    height={220}
+                    />
                     
                 </div>
                 <div className="textCard">
