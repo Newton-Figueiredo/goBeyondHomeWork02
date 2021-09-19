@@ -6,7 +6,7 @@
     }
 
 .header {
-    height: 42vh;
+    height: 300px;;
 }
 
 div#__next {
@@ -66,7 +66,7 @@ img.minhaFoto {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10vh;
+    
 }
 
 h1.headerNome {
