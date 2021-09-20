@@ -5,7 +5,7 @@ export default function Sugestoes() {
         <>
         <div>
             <App/>
-            
+            <div className="mainContent">
             <Cards srcFoto  ='https://images-na.ssl-images-amazon.com/images/I/5108AHJ7pIL.jpg' 
                    nomeCard ='Aldnoah zero' 
                    linkCard ='https://www.crunchyroll.com/pt-br/aldnoahzero'
@@ -24,6 +24,7 @@ export default function Sugestoes() {
                    nomeCard ='KONOSUBA' 
                    linkCard ='https://www.crunchyroll.com/pt-br/konosuba-gods-blessing-on-this-wonderful-world'
             />
+            </div>
         </div>
         </>
     )
